@@ -1,0 +1,27 @@
+@import "./reset.scss";
+@import "./style.scss";
+// 开发pc时请使用 pcStyle.scss 开发移动站点时请使用index.scss
+
+// 移动端
+// font_dpr rem
+
+// pc端
+// font_fn bg_fn
+
+//start
+@keyframes mymove{
+	  0%{transform: scaleX(1);}
+	 50%{transform: scale3d(0.85,0.85,0.85);}
+	 100%{transform: scaleX(1);}
+}
+.app_box{
+  background: #9ddeca;
+  .main{
+	margin: 0 auto;
+	overflow: hidden;
+  width: rem(640);
+	height: rem(2335);
+	background: url(../img/prtbj.png) no-repeat center / cover;
+	@include font_text( 28,#fff，bold );
+	}
+}

@@ -1,0 +1,70 @@
+//阿里图标库
+
+@font-face {
+  font-family: 'iconfontyyy';  /* project id 284616 */
+  src: url('//at.alicdn.com/t/font_eu32mjbfq5154s4i.eot');
+  src: url('//at.alicdn.com/t/font_eu32mjbfq5154s4i.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_eu32mjbfq5154s4i.woff') format('woff'),
+  url('//at.alicdn.com/t/font_eu32mjbfq5154s4i.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_eu32mjbfq5154s4i.svg#iconfont') format('svg');
+}
+
+.iconfontyyy{
+    font-family:"iconfontyyy" !important;
+    font-size:5px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 1px;
+    -moz-osx-font-smoothing: grayscale;
+}
+//字体使用规范
+//字体通用方法
+@mixin font_fn( $size : 12px, $color : #fff, $bold : narmal ){
+  font-size: $size;
+  font-weight: $bold;
+  color: $color;
+  line-height: 1.5;
+}
+
+@mixin bg_fn( $url, $repeat, $position, $size ){
+  background-image: $url;
+  background-repeat: $repeat;
+  background-position: $position;
+  background-size: $size;
+}
+
+
+//主标题
+@mixin font_main_head(){
+  @include font_fn(36px, #fff, bold);
+  line-height: 2.2;
+}
+
+//次级标题
+@mixin font_sub_head(){
+  @include font_fn(20px, #fff, bold);
+}
+
+//小标题
+@mixin font_small_head(){
+  @include font_fn(18px, #fff, bold);
+}
+
+//正文
+@mixin font_text(){
+  @include font_fn(18px, #fff);
+}
+
+//辅助文字
+@mixin font_help_text(){
+  @include font_fn(12px, #999);
+}
+
+//失效文字
+@mixin font_disabled_text(){
+  @include font_fn(12px, #ccc);
+}
+
+//链接文字
+@mixin font_link_text(){
+  @include font_fn(12px, #2db7f5);
+}
