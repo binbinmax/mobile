@@ -3,56 +3,41 @@
 
 
 
-## 安装nodejs
+###  安装nodejs 
 
 
 ```
-- http://nodejs.cn/download/
+ http://nodejs.cn/download/
+ 
+ 
 ```
 
 
 
-### 2.1 开发调试
+### 安装cnpm淘宝镜像
 ```
-//首先运行dll预打包
-$ npm run start:pre
-//打包完成，启动项目
-$ npm start
+http://npm.taobao.org/
+
+npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
 
-查看效果` http://127.0.0.1:9090`
 
-### 2.2 代码检查
-```
-$ npm run lint
+
+### gulp是基于Nodejs的自动任务运行器， 她能自动化地完成 javascript/coffee/sass/less/html/image/css 等文件的的测试、检查、合并、压缩、格式化、浏览器自动刷新、部署文件生成，并监听文件在改动后重复指定的这些步骤
 ```
 
-### 2.3 测试用例
+$ cnpm install gulp -g
+
+
 ```
-$ npm run test:watch
+### 下载模板
+### 安装依赖包  
+```
+$ cnpm i
+
 ```
 
-### 2.4 产出资源
+### 自动任务运行器
 ```
-$ npm run build
+$ gulp
 ```
-
-## 3. 技术栈
-
-- [x] [Webpack](https://webpack.github.io)
-- [x] [React](https://facebook.github.io/react/)
-- [x] [ES6](http://es6.ruanyifeng.com/)
-- [x] [Redux](https://github.com/rackt/redux)
-- [x] [React-router](https://github.com/rackt/react-router-redux)
-- [x] [Babel](https://babeljs.io/)
-- [ ] [immutable](https://www.npmjs.com/package/immutable)
-- [ ] [redux-immutable](https://www.npmjs.com/package/immutable)
-- [ ] [react-immutable-proptypes](https://www.npmjs.com/package/immutable)
-- [ ] [react-router-redux](https://www.npmjs.com/package/immutable)
-- [ ] [Autoprefixer](https://github.com/postcss/autoprefixer)
-- [ ] [PostCSS](https://github.com/postcss/postcss)
-- [x] [CSS modules](https://github.com/outpunk/postcss-modules)
-- [x] [Less](https://github.com/less/less.js)
-- [x] [Sass](https://github.com/sass/node-sass)
-- [x] [Eslint](https://github.com/eslint/eslint)
-
