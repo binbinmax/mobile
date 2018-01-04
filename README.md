@@ -1,4 +1,4 @@
-# pc+移动端适配模板（nodejs+gulp+git+scss）
+# pc+移动端适配模板（nodejs+gulp+scss）
 
 
 
