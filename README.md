@@ -44,3 +44,8 @@ $ cnpm i
 ```
 $ gulp
 ```
+### 测试地址
+```
+$ http://doc.vueyun.com/ceshi/
+```
+
