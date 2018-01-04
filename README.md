@@ -5,17 +5,13 @@
 
 ## 安装nodejs
 
+
+```
 - http://nodejs.cn/download/
-
-
-## 1. start
-
 ```
-$ git clone https://github.com/zzlw/webpack-dev-super
-$ cd webpack-dev-super
-$ npm install
-```
-## 2. dev
+
+
+
 ### 2.1 开发调试
 ```
 //首先运行dll预打包
