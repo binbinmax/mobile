@@ -46,6 +46,6 @@ $ gulp
 ```
 ### 测试地址
 ```
-$ http://doc.vueyun.com/ceshi/
+$ https://www.vueyun.com/ceshi/
 ```
 
